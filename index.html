@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Comic Burger's</title>
+        <link rel="icon" type="image/x-icon" href="./images/icons/favico.ico">
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="models">
+            <div class="burger-item">
+                <a href="">
+                    <div class="burger-item--img"><img src="" /></div>
+                    <div class="burger-item--add">+</div>
+                </a>
+                <div class="burger-item--price">R$ --</div>
+                <div class="burger-item--name">--</div>
+                <div class="burger-item--desc">--</div>
+            </div>
+
+            <div class="cart--item">
+                <img src="" />
+                <div class="cart--item-nome">--</div>
+                <div class="cart--item--qtarea">
+                    <button class="cart--item-qtmenos">-</button>
+                    <div class="cart--item--qt">1</div>
+                    <button class="cart--item-qtmais">+</button>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <div class="menu-openner">
+                <span>0</span>
+                <span> 
+                    <img src="./images/icons/basket.png" alt="Imagem carrinho">
+                </span>
+            </div>
+        </header>
+
+        <main>
+            <div class="logoComics">
+                <img src="./images/logo.png" alt="Logotipo Comic Burger's">
+            </div>
+            <h1 class="title-main">Hambúrguers</h1>
+            <div class="burger-area"></div>
+            <footer>© Desenvolvido por Gabriel Castro, 2022.</footer>
+        </main>
+
+        <aside>
+            <div class="cart--area">
+                <div class="menu-closer">
+                    <img src="./images/icons/close.png" alt="Botão de fechar">
+                </div>
+                <h1>Seus Hambúrguers</h1>
+                <div class="cart"></div>
+                <div class="cart--details">
+                    <div class="cart--totalitem subtotal">
+                        <span>Subtotal</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--totalitem desconto">
+                        <span>Desconto (-10%)</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--totalitem total big">
+                        <span>Total</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--finalizar">Finalizar a compra</div>
+                </div>
+            </div>
+        </aside>
+
+        <div class="burgerWindowArea">
+            <div class="burgerWindowBody">
+                <div class="burgerInfo--cancelMobileButton">Voltar</div>
+                <div class="burgerBig">
+                    <img src="" />
+                </div>
+                <div class="burgerInfo">
+                    <h1>--</h1>
+                    <div class="burgerInfo--desc">--</div>
+                    <div class="burgerInfo--sizearea">
+                        <div class="burgerInfo--sector">Tamanho</div>
+                        <div class="burgerInfo--sizes">
+                            <div data-key="0" class="burgerInfo--size selected">1 CARNE <span>--</span></div>
+                            <div data-key="1" class="burgerInfo--size">2 CARNES <span>--</span></div>
+                            <div data-key="2" class="burgerInfo--size ">3 CARNES <span>--</span></div>
+                        </div>
+                    </div>
+
+                    <div class="burgerInfo--pricearea">
+                        <div class="burgerInfo--sector">Preço</div>
+                        <div class="burgerInfo--price">
+                            <div class="burgerInfo--actualPrice">R$ --</div>
+                            <div class="burgerInfo--qtarea">
+                                <button class="burgerInfo--qtmenos">-</button>
+                                <div class="burgerInfo--qt">1</div>
+                                <button class="burgerInfo--qtmais">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="burgerInfo--addButton">Adicionar ao carrinho</div>
+                    <div class="burgerInfo--cancelButton">Cancelar</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="burgerBuyOrder">
+            <div class="burgerWindowBuyOrder">
+                <div class="burgerOrder--cancelMobileButton">Fechar</div>
+        
+                <div class="buyOrderInfo">
+                    <h1>
+                        <img src="./images/icons/checked.png" alt="Icone de checklist">
+                        Ordem de Compra
+                    </h1>
+                    <div class="buyOrder-burger">--</div>
+                    <div class="buyOrder-burger--total">--</div>
+                    <div class="burgerOrder--cancelButton">Fechar</div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="burgers.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
