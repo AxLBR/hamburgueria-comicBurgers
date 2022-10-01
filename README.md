@@ -1,6 +1,6 @@
 # Comic Burger's Hamburgueria
 
-![preview](./.github/preview.JPG)
+![preview](./.github/preview.jpg)
 
 Projeto de estudos em JavaScript, onde a ideia era criar uma aplicação simulando uma hamburgueria temática, de maneira responsiva e utilizando a trindade HTML/CSS/JS. E assim nasceu a Comic Burger's !
 
